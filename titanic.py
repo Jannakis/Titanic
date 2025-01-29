@@ -85,4 +85,5 @@ def random_search_rf(X_train, X_val, y_train, y_val, n_iter=150, cv=5, random_st
     print("Classification Report:")
     print(classification_report(y_val, y_test_pred))
 
-grid_search_rf(X_train, X_val, y_train, y_val)
+#random_search_rf(X_train, X_val, y_train, y_val)
+#grid_search_rf(X_train, X_val, y_train, y_val)
